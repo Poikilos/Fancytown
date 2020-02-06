@@ -1,6 +1,9 @@
 # Fancytown
 This Minecraft 1.8 world is a torture test for world converters such as mcimport. Any code beyond mcimport may not be necessary, but Python should be used to match mcimport if any (for eventual merge).
 
+## Range
+The range that is necessary to test, at most, is (-17, 74, 278) to (51, 62, 228).
+
 ## Player
 
 ### Player with UUID 5f7f4afea5d546b884f689ebe74bd4a5
@@ -78,11 +81,11 @@ is at (-6, 68, 246), and one placed by the player is at (-6, 68, 242).
 The Jack o' Lantern [lit] is a separate node, at (-4, 68, 242).
 
 ### Sign
-A sign has an entity with it, perhaps to hold the text (interestingly, 
-a cactus can not exist in front of a sign, because the cactus breaks, 
-whereas normally a cactus damages all entities [converts  them into 
-dropped item form if invincible]). A sign facing approximately -112 
-degrees is at (0, 68, 254). The rotation is determined by an integer 
+A sign has an entity with it, perhaps to hold the text (interestingly,
+a cactus can not exist in front of a sign, because the cactus breaks,
+whereas normally a cactus damages all entities [converts  them into
+dropped item form if invincible]). A sign facing approximately -112
+degrees is at (0, 68, 254). The rotation is determined by an integer
 param of 0-15 (0 is South, 1 is South-Southwest, and so on).
 
 ### Armor Stand
@@ -93,10 +96,10 @@ An armor stand at (0, 68, 262) is wearing full diamond armor (helmet, chestplate
 - Directly adjacent to (-5, 64, 273) are 4 pistons that are activated (extended to 2x1x1 meters) in the same arrangement as above.
 - Directly adjacent to (-10, 64, 273) are sticky pistions in the same arrangement.
 - Directly adjacent to (-15, 64, 273) are activated sticky pistions in the same arrangement.
-- A sticky piston facing up is at (11, 64, 274) and an activated one is at (11, 64, 274) extending to (11, 65, 274) 
-- A piston facing up is at (11, 64, 272) and an activated one is at (11, 64, 271) extending to (11, 65, 271) 
-- A sticky piston facing down is at (11, 68, 274) and an activated one is at (11, 68, 273) extending to (11, 67, 273) 
-- A piston facing down is at (11, 68, 272) and an activated one is at (11, 68, 271) extending to (11, 67, 271) 
+- A sticky piston facing up is at (11, 64, 274) and an activated one is at (11, 64, 274) extending to (11, 65, 274)
+- A piston facing up is at (11, 64, 272) and an activated one is at (11, 64, 271) extending to (11, 65, 271)
+- A sticky piston facing down is at (11, 68, 274) and an activated one is at (11, 68, 273) extending to (11, 67, 273)
+- A piston facing down is at (11, 68, 272) and an activated one is at (11, 68, 271) extending to (11, 67, 271)
 - An activated tripwire_hook facing South is at (18, 68, 267)
   - An activated tripwire_hook facing North is at (18, 68, 272)
   - String is between them (tripwire).
@@ -105,9 +108,9 @@ An armor stand at (0, 68, 262) is wearing full diamond armor (helmet, chestplate
 - a Cobweb is at (4, 64, 277)
 - a Trapped Chest at (4, 64, 278) contains: pumpkin
 - a Chest at (4, 64, 276) contains: cobweb, chest, trapped chest
-  - A chest inside a chest cannot contain anything, but **shulker 
-    boxes**, which also are in various colors, can do that (1 level of 
-    recursion; not necessary for older worlds since added in Minecraft 
+  - A chest inside a chest cannot contain anything, but **shulker
+    boxes**, which also are in various colors, can do that (1 level of
+    recursion; not necessary for older worlds since added in Minecraft
     Java Edition 1.11 "The Exploration Update").
 - oak wood stairs: (3, 64, 270) (big end pointing North).
 - upside-down oak wood stairs: (3, 63, 270) (big end pointing South).
@@ -121,7 +124,7 @@ An armor stand at (0, 68, 262) is wearing full diamond armor (helmet, chestplate
 - obsidian: (24, 69, 265)
 
 ### Items in World for MineClone2
-The following nodes are not relevant to Minetest (are dispensiable), 
+The following nodes are not relevant to Minetest (are dispensiable),
 but are relevant to MineClone2.
 - An end portal frame ("End Portal") without an eye of ender is at
   (20, 69, 257), one with an eye is at (23, 69, 256) and part of the starry teleportation square the ones with eyes generate is at (24, 69, 256).
